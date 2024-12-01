@@ -138,4 +138,3 @@ def draw_logo_9():
 def draw_logo_10():
     draw_logo("A", "pink", "#B0E0E6", "circle", 40)
 
-

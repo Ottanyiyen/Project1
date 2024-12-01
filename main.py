@@ -55,6 +55,7 @@ class LogoChooser:
             # Get a list of available logo functions in the module
             # And logo attributes are called only starts with "draw_logo_" by using dir function.
             logo = [func for func in dir(module) if func.startswith("draw_logo_")]
+            print([func for func in dir(module) if func.startswith("draw_logo_")])
 
             if not logo:
                 print(f"No logo functions found in {self.module_name}.")

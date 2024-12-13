@@ -1,6 +1,6 @@
-Berkant : V to Z and Main code
+Berkant : Main code and  V to Z
 Khadega: K to U 
-Harun: A to J
+Harun: A to J
 
 
 !!! Main,module of N and module of A already done !!!

@@ -64,6 +64,7 @@ class LogoChooser:
             get_random_logo = random.choice(logo)
 
             # Call the chosen logo function with module name
+            # getattr (in this case, a function)
             getattr(module, get_random_logo)()
 
 
@@ -76,7 +77,7 @@ class LogoChooser:
             print(f"Failed to call the logo function in {self.module_name}.")
 
 
-# ends
+# end
 
 
 # Class LogoGenerator starts
@@ -91,8 +92,8 @@ class LogoGenerator:
         self.logo_module = None
 
     # User must enter a character is says that as a function.
-    def get_character(self):
-        while True:
+    def get_character(self):   
+        while True:    
             character = input("Enter a character for the logo (A-Z): ").lower()
             if character in module_map:
                 print(f"You entered {character.upper()}")
@@ -101,11 +102,11 @@ class LogoGenerator:
                 print("Invalid input. Please enter a single character from A to Z.")
 
 
-# ends
+# end
 
 
 
-# Main method connect all functions in one function.
+# Main method connect all functions in a function.
 def main():
     print("This code design was designed using the Turtle library of Turtle Graphics.")
     print("It is displayed what user enters as a character in terminal to convert as graphic interface.")
@@ -113,7 +114,7 @@ def main():
 
     screen = turtle.Screen()
     screen.setup(width=500, height=500)  # Screen size
-    screen.title("Logo Generator")  # Window Title
+    screen.title("Letter Generator")  # Window Title
 
     # Bring the window to the foreground
     try:
@@ -159,7 +160,11 @@ def main():
                 print("Invalid input. Please enter Y or N.")
 
 
-# Checks the module name, if true related function is being run directly.
+"""
+  Checks the module name, if true related function is being run directly.
+  When the script is executed directly, main() is called to run the primary logic.
+  Evaluates whether the script is being run directly. 
+"""
 if __name__ == "__main__":
     main()
 

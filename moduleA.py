@@ -3,7 +3,7 @@ import random # Import the random module for generating random position of shape
 
 
 screen = turtle.Screen() # Create the screen object
-screen.setup(width=800, height=600) # Set the screen dimensions
+
 
 shadow_color = "gray"  # Define a consistent shadow color for the logo
 

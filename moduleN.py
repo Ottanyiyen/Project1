@@ -2,20 +2,20 @@ from turtle import *  # Importing all functionalities of the turtle module
 
 # Function to draw Logo 1
 def draw_logo_1():
-    bgcolor('red')  # Set the background color of the canvas to red
-    right(90)  # Rotate the turtle 90 degrees to the right
-    pencolor('black')  # Set the pen color to black
     hideturtle()  # Hide the turtle cursor for cleaner graphics
+    bgcolor('black')  # Set the background color of the canvas to red
+    right(90)  # Rotate the turtle 90 degrees to the right
+    pencolor('red')  # Set the pen color to black
+
 
     # List of positions where the two rectangles will be drawn
-    pos = [(-40, 0), (40, 0)]  
-    
+    pos = [(-60, 90), (22, 90)]
     # Loop to draw two vertical black rectangles
     for x, y in pos:
         up()  # Lift the pen up so it doesn't draw while moving
         goto(x, y)  # Move the turtle to the specified position
         down()  # Put the pen down to start drawing
-        fillcolor('black')  # Set the fill color to black
+        fillcolor('red')  # Set the fill color to black
         begin_fill()  # Start filling the shape with the fill color
         for _ in range(2):  # Loop twice to draw the rectangle
             forward(200)  # Move the turtle forward 200 units
@@ -26,7 +26,7 @@ def draw_logo_1():
 
     # Move the turtle to the starting position of the diagonal design
     up()  # Lift the pen up
-    goto(-40, 0)  # Move the turtle to (-40, 0)
+    goto(-60, 90)  # Move the turtle to (-60, 90)
     down()  # Put the pen down to start drawing
     left(22)  # Turn the turtle left by 22 degrees to set the angle
 
@@ -57,17 +57,17 @@ def draw_logo_1():
 
 
 def draw_logo_2():
+    hideturtle()
     bgcolor('black')
     right(90)
-    pencolor('red')
-    hideturtle()
+    pencolor('white')
 
-    pos = [(-40,0), (40,0)]
-    for x,y in pos:
+    pos = [(-60, 90), (22, 90)]
+    for x, y in pos:
         up()
-        goto(x,y)
+        goto(x, y)
         down()
-        fillcolor('red')
+        fillcolor('white')
         begin_fill()
         for _ in range(2):
             forward(200)
@@ -76,7 +76,7 @@ def draw_logo_2():
             left(90)
         end_fill()
     up()
-    goto(-40,0)
+    goto(-60, 90)
     down()
     left(22)
 
@@ -87,19 +87,20 @@ def draw_logo_2():
         forward(40)
         left(112)
     end_fill()
+
 
 def draw_logo_3():
+    hideturtle()
     bgcolor('yellow')
     right(90)
-    pencolor('orange')
-    hideturtle()
+    pencolor('#F52549')
 
-    pos = [(-40,0), (40,0)]
-    for x,y in pos:
+    pos = [(-60, 90), (22, 90)]
+    for x, y in pos:
         up()
-        goto(x,y)
+        goto(x, y)
         down()
-        fillcolor('orange')
+        fillcolor('#F52549')
         begin_fill()
         for _ in range(2):
             forward(200)
@@ -108,7 +109,7 @@ def draw_logo_3():
             left(90)
         end_fill()
     up()
-    goto(-40,0)
+    goto(-60, 90)
     down()
     left(22)
 
@@ -120,13 +121,15 @@ def draw_logo_3():
         left(112)
     end_fill()
 
+
 def draw_logo_4():
+    hideturtle()
     bgcolor('#146385')
     right(90)
     pencolor('#311b07')
-    hideturtle()
 
-    pos = [(-40,0), (40,0)]
+
+    pos = [(-60, 90), (22, 90)]
     for x,y in pos:
         up()
         goto(x,y)
@@ -140,7 +143,7 @@ def draw_logo_4():
             left(90)
         end_fill()
     up()
-    goto(-40,0)
+    goto(-60,90)
     down()
     left(22)
 
@@ -152,13 +155,14 @@ def draw_logo_4():
         left(112)
     end_fill()
 
+
 def draw_logo_5():
+    hideturtle()
     bgcolor('#e27712')
     right(90)
     pencolor('#cdbaa8')
-    hideturtle()
 
-    pos = [(-40,0), (40,0)]
+    pos = [(-60, 90), (22, 90)]
     for x,y in pos:
         up()
         goto(x,y)
@@ -172,7 +176,7 @@ def draw_logo_5():
             left(90)
         end_fill()
     up()
-    goto(-40,0)
+    goto(-60,90)
     down()
     left(22)
 
@@ -183,19 +187,20 @@ def draw_logo_5():
         forward(40)
         left(112)
     end_fill()
+
 
 def draw_logo_6():
-    bgcolor('#db1fa9')
-    right(90)
-    pencolor('#1d6e12')
     hideturtle()
+    bgcolor('#46211A')
+    right(90)
+    pencolor('#F1D3B2')
 
-    pos = [(-40,0), (40,0)]
-    for x,y in pos:
+    pos = [(-60, 90), (22, 90)]
+    for x, y in pos:
         up()
-        goto(x,y)
+        goto(x, y)
         down()
-        fillcolor('#1d6e12')
+        fillcolor('#F1D3B2')
         begin_fill()
         for _ in range(2):
             forward(200)
@@ -204,7 +209,7 @@ def draw_logo_6():
             left(90)
         end_fill()
     up()
-    goto(-40,0)
+    goto(-60, 90)
     down()
     left(22)
 
@@ -215,19 +220,53 @@ def draw_logo_6():
         forward(40)
         left(112)
     end_fill()
+
+
+def draw_logo_7():
+    hideturtle()
+    bgcolor('#375E97')
+    right(90)
+    pencolor('#FB6542')
+
+    pos = [(-60, 90), (22, 90)]
+    for x, y in pos:
+        up()
+        goto(x, y)
+        down()
+        fillcolor('#FB6542')
+        begin_fill()
+        for _ in range(2):
+            forward(200)
+            left(90)
+            forward(40)
+            left(90)
+        end_fill()
+    up()
+    goto(-60, 90)
+    down()
+    left(22)
+
+    begin_fill()
+    for _ in range(2):
+        forward(217)
+        left(68)
+        forward(40)
+        left(112)
+    end_fill()
+
 
 def draw_logo_8():
-    bgcolor('#c81921')
-    right(90)
-    pencolor('#829857')
     hideturtle()
+    bgcolor('#66A5AD')
+    right(90)
+    pencolor('#C4DFE6')
 
-    pos = [(-40,0), (40,0)]
-    for x,y in pos:
+    pos = [(-60, 90), (22, 90)]
+    for x, y in pos:
         up()
-        goto(x,y)
+        goto(x, y)
         down()
-        fillcolor('#829857')
+        fillcolor('#C4DFE6')
         begin_fill()
         for _ in range(2):
             forward(200)
@@ -236,7 +275,7 @@ def draw_logo_8():
             left(90)
         end_fill()
     up()
-    goto(-40,0)
+    goto(-60, 90)
     down()
     left(22)
 
@@ -248,13 +287,14 @@ def draw_logo_8():
         left(112)
     end_fill()
 
+
 def draw_logo_9():
+    hideturtle()
     bgcolor('#6d5d4f')
     right(90)
     pencolor('#1c2931')
-    hideturtle()
 
-    pos = [(-40,0), (40,0)]
+    pos = [(-60, 90), (22, 90)]
     for x,y in pos:
         up()
         goto(x,y)
@@ -268,7 +308,7 @@ def draw_logo_9():
             left(90)
         end_fill()
     up()
-    goto(-40,0)
+    goto(-60,90)
     down()
     left(22)
 
@@ -280,18 +320,19 @@ def draw_logo_9():
         left(112)
     end_fill()
 
-def draw_logo_10():
-    bgcolor('#1e8acc')
-    right(90)
-    pencolor('#085c5e')
-    hideturtle()
 
-    pos = [(-40,0), (40,0)]
-    for x,y in pos:
+def draw_logo_10():
+    hideturtle()
+    bgcolor('#6AB187')
+    right(90)
+    pencolor('#20948B')
+
+    pos = [(-60, 90), (22, 90)]
+    for x, y in pos:
         up()
-        goto(x,y)
+        goto(x, y)
         down()
-        fillcolor('#085c5e')
+        fillcolor('#20948B')
         begin_fill()
         for _ in range(2):
             forward(200)
@@ -300,7 +341,7 @@ def draw_logo_10():
             left(90)
         end_fill()
     up()
-    goto(-40,0)
+    goto(-60, 90)
     down()
     left(22)
 

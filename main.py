@@ -1,4 +1,4 @@
-import turtle
+from turtle import *
 import random
 
 # Dictionary mapping for synchronization of each character.
@@ -45,7 +45,7 @@ class LogoChooser:
     # To get  randomly 1 function of 10 different functions in related module.
     def draw_random_logo(self):
         # Clear turtle screen before drawing
-        turtle.clearscreen()
+        clearscreen()
 
         # Error-handling try-except mechanism
         try:
@@ -108,17 +108,17 @@ class LogoGenerator:
 
 # Main method connect all functions in a function.
 def main():
+
     print("This code design was designed using the Turtle library of Turtle Graphics.")
     print("It is displayed what user enters as a character in terminal to convert as graphic interface.")
     print("INFO: Every specific module of character has 10 different functions.")
 
-    screen = turtle.Screen()
-    screen.setup(width=500, height=500)  # Screen size
-    screen.title("Letter Generator")  # Window Title
+    setup(width=500, height=500)  # Screen size
+    title("Letter Generator")  # Window Title
 
     # Bring the window to the foreground
     try:
-        screen.getcanvas().winfo_toplevel().attributes("-topmost", True)
+        getcanvas().winfo_toplevel().attributes("-topmost", True)
 
     # If it is not supported, pass to error
     except AttributeError:
@@ -153,7 +153,7 @@ def main():
 
             elif choice == "n":
                 print("The program has been successfully terminated.")
-                turtle.bye()  # Close the turtle window
+                bye()  # Close the turtle window
                 exit()  # Exit the entire program
 
             else:

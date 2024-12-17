@@ -1,85 +1,342 @@
-import turtle
-
-
-pen = turtle.Turtle()
-pen.hideturtle()
-
-
-def configure_pen(pen, pcolor, x, y, bg_color):
-    pen.color(pcolor)
-    pen.penup()
-    pen.goto(x, y)
-    pen.pendown()
-    turtle.bgcolor(bg_color)
-
-
-
-
-
+from turtle import *
 
 def draw_logo_1():
+    hideturtle()
+    bgcolor('black')
+    pencolor('white')
+    fillcolor('white')
+    right(90)
 
-    configure_pen(pen, "#ca0c0c", -60, -100, "#9e6b6b")
-    pen.write("X", font=("Roboto", 150, "bold"))
+    up()
+    goto(-80, 110)
+    down()
+    left(40)
 
+    begin_fill()
+    for _ in range(2):
+        forward(270)
+        left(50)
+        forward(34)
+        left(130)
+    end_fill()
+
+    up()
+    goto(55, 110)
+    down()
+    left(140)
+
+    begin_fill()
+    for _ in range(2):
+        forward(50)
+        left(144)
+        forward(200)
+        left(36)
+    end_fill()
 
 
 def draw_logo_2():
+    hideturtle()
+    bgcolor('#080205')
+    pencolor('#7A9DB1')
+    fillcolor('#7A9DB1')
+    right(90)
 
-    configure_pen(pen, "#ff6600", -60, -100, "#2c8212")
-    pen.write("X", font=("Arial", 150, "italic"))
+    up()
+    goto(-80, 110)
+    down()
+    left(40)
 
+    begin_fill()
+    for _ in range(2):
+        forward(270)
+        left(50)
+        forward(34)
+        left(130)
+    end_fill()
+
+    up()
+    goto(55, 110)
+    down()
+    left(140)
+
+    begin_fill()
+    for _ in range(2):
+        forward(50)
+        left(144)
+        forward(200)
+        left(36)
+    end_fill()
 
 
 def draw_logo_3():
+    hideturtle()
+    bgcolor('#9681AC')
+    pencolor('#9FBCAD')
+    fillcolor('#9FBCAD')
+    right(90)
 
-    configure_pen(pen, "#2e330a", -60, -100, "#9a74c8")
-    pen.write("X", font=("Open Sans", 150, "normal"))
+    up()
+    goto(-80, 110)
+    down()
+    left(40)
 
+    begin_fill()
+    for _ in range(2):
+        forward(270)
+        left(50)
+        forward(34)
+        left(130)
+    end_fill()
+
+    up()
+    goto(55, 110)
+    down()
+    left(140)
+
+    begin_fill()
+    for _ in range(2):
+        forward(50)
+        left(144)
+        forward(200)
+        left(36)
+    end_fill()
 
 
 def draw_logo_4():
+    hideturtle()
+    bgcolor('#521C14')
+    pencolor('#B08470')
+    fillcolor('#B08470')
+    right(90)
 
-    configure_pen(pen, "#ef9b0b", -60, -100, "#170826")
-    pen.write("X", font=("Montserrat", 150, "bold"))
+    up()
+    goto(-80, 110)
+    down()
+    left(40)
 
+    begin_fill()
+    for _ in range(2):
+        forward(270)
+        left(50)
+        forward(34)
+        left(130)
+    end_fill()
+
+    up()
+    goto(55, 110)
+    down()
+    left(140)
+
+    begin_fill()
+    for _ in range(2):
+        forward(50)
+        left(144)
+        forward(200)
+        left(36)
+    end_fill()
 
 
 def draw_logo_5():
+    hideturtle()
+    bgcolor('#D5BFB9')
+    pencolor('#FBFAF5')
+    fillcolor('#FBFAF5')
+    right(90)
 
-    configure_pen(pen, "#97b7c4", -60, -100, "#272730")
-    pen.write("X", font=("Poppins", 150, "italic"))
+    up()
+    goto(-80, 110)
+    down()
+    left(40)
+
+    begin_fill()
+    for _ in range(2):
+        forward(270)
+        left(50)
+        forward(34)
+        left(130)
+    end_fill()
+
+    up()
+    goto(55, 110)
+    down()
+    left(140)
+
+    begin_fill()
+    for _ in range(2):
+        forward(50)
+        left(144)
+        forward(200)
+        left(36)
+    end_fill()
 
 
 def draw_logo_6():
+    hideturtle()
+    bgcolor('#945A23')
+    pencolor('#D5BFB9')
+    fillcolor('#D5BFB9')
+    right(90)
 
-    configure_pen(pen, "#6b1414", -60, -100, "#505477")
-    pen.write("X", font=("Arial", 150, "bold"))
+    up()
+    goto(-80, 110)
+    down()
+    left(40)
 
+    begin_fill()
+    for _ in range(2):
+        forward(270)
+        left(50)
+        forward(34)
+        left(130)
+    end_fill()
+
+    up()
+    goto(55, 110)
+    down()
+    left(140)
+
+    begin_fill()
+    for _ in range(2):
+        forward(50)
+        left(144)
+        forward(200)
+        left(36)
+    end_fill()
 
 
 def draw_logo_7():
+    hideturtle()
+    bgcolor('#EB523F')
+    pencolor('#E9DFE5')
+    fillcolor('#E9DFE5')
+    right(90)
 
-    configure_pen(pen, "#dbf556", -60, -100, "#ad5c97")
-    pen.write("X", font=("Inter", 150, "italic"))
+    up()
+    goto(-80, 110)
+    down()
+    left(40)
 
+    begin_fill()
+    for _ in range(2):
+        forward(270)
+        left(50)
+        forward(34)
+        left(130)
+    end_fill()
+
+    up()
+    goto(55, 110)
+    down()
+    left(140)
+
+    begin_fill()
+    for _ in range(2):
+        forward(50)
+        left(144)
+        forward(200)
+        left(36)
+    end_fill()
 
 
 def draw_logo_8():
+    hideturtle()
+    bgcolor('#E9DFE5')
+    pencolor('#EA3699')
+    fillcolor('#EA3699')
+    right(90)
 
-    configure_pen(pen, "#3b4c34", -60, -100, "#a8451a")
-    pen.write("X", font=("Oswald", 150, "italic"))
+    up()
+    goto(-80, 110)
+    down()
+    left(40)
 
+    begin_fill()
+    for _ in range(2):
+        forward(270)
+        left(50)
+        forward(34)
+        left(130)
+    end_fill()
+
+    up()
+    goto(55, 110)
+    down()
+    left(140)
+
+    begin_fill()
+    for _ in range(2):
+        forward(50)
+        left(144)
+        forward(200)
+        left(36)
+    end_fill()
 
 
 def draw_logo_9():
+    hideturtle()
+    bgcolor('#832C2E')
+    pencolor('#E9DFE5')
+    fillcolor('#E9DFE5')
+    right(90)
 
-    configure_pen(pen, "#1d430f", -60, -100, "#943fd9")
-    pen.write("X", font=("Agu Display", 150, "bold"))
+    up()
+    goto(-80, 110)
+    down()
+    left(40)
 
+    begin_fill()
+    for _ in range(2):
+        forward(270)
+        left(50)
+        forward(34)
+        left(130)
+    end_fill()
+
+    up()
+    goto(55, 110)
+    down()
+    left(140)
+
+    begin_fill()
+    for _ in range(2):
+        forward(50)
+        left(144)
+        forward(200)
+        left(36)
+    end_fill()
 
 
 def draw_logo_10():
+    hideturtle()
+    bgcolor('#1C5789')
+    pencolor('#341514')
+    fillcolor('#341514')
+    right(90)
 
-    configure_pen(pen, "#8798de", -60, -100, "#19460c")
-    pen.write("X", font=("Playfair Display", 150, "normal"))
+    up()
+    goto(-80, 110)
+    down()
+    left(40)
+
+    begin_fill()
+    for _ in range(2):
+        forward(270)
+        left(50)
+        forward(34)
+        left(130)
+    end_fill()
+
+    up()
+    goto(55, 110)
+    down()
+    left(140)
+
+    begin_fill()
+    for _ in range(2):
+        forward(50)
+        left(144)
+        forward(200)
+        left(36)
+    end_fill()
+
+

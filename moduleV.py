@@ -1,171 +1,342 @@
 from turtle import *
 
 def draw_logo_1():
+    hideturtle()
+    bgcolor('black')
+    pencolor('white')
+    fillcolor('white')
+    right(90)
 
-    bgcolor("black")
-    speed(1)
-    pensize(25)
-    color("blue")
-    hideturtle() 
+    up()
+    goto(-105, 90)
+    down()
+    left(22)
 
-    penup()  
-    goto(-65, 75) 
-    pendown() 
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(68)
+        forward(40)
+        left(112)
+    end_fill()
 
-    right(65)
-    forward(150)
-    left(135)
-    forward(150)
+    up()
+    goto(46, 90)
+    down()
+    right(44)
+
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(112)
+        forward(40)
+        left(68)
+    end_fill()
+
 
 def draw_logo_2():
+    hideturtle()
+    bgcolor('#E59462')
+    pencolor('#D5CAE4')
+    fillcolor('#D5CAE4')
+    right(90)
 
-    bgcolor("#902323")
-    speed(1)
-    pensize(25)
-    color("#aeb125")
-    hideturtle() 
+    up()
+    goto(-105, 90)
+    down()
+    left(22)
 
-    penup()  
-    goto(-65, 75) 
-    pendown() 
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(68)
+        forward(40)
+        left(112)
+    end_fill()
 
-    right(65)
-    forward(150)
-    left(135)
-    forward(150)
+    up()
+    goto(46, 90)
+    down()
+    right(44)
+
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(112)
+        forward(40)
+        left(68)
+    end_fill()
+
 
 def draw_logo_3():
+    hideturtle()
+    bgcolor('#EDCD44')
+    pencolor('#DC3E26')
+    fillcolor('#DC3E26')
+    right(90)
 
-    bgcolor("#d6d7a8")
-    speed(1)
-    pensize(25)
-    color("orange")
-    hideturtle() 
+    up()
+    goto(-105, 90)
+    down()
+    left(22)
 
-    penup()  
-    goto(-65, 75) 
-    pendown() 
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(68)
+        forward(40)
+        left(112)
+    end_fill()
 
-    right(65)
-    forward(150)
-    left(135)
-    forward(150)
+    up()
+    goto(46, 90)
+    down()
+    right(44)
+
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(112)
+        forward(40)
+        left(68)
+    end_fill()
+
 
 def draw_logo_4():
+    hideturtle()
+    bgcolor('#96FFBD')
+    pencolor('#1803A5')
+    fillcolor('#1803A5')
+    right(90)
 
-    bgcolor("#05ad3d")
-    speed(1)
-    pensize(25)
-    color("#493a37")
-    hideturtle() 
+    up()
+    goto(-105, 90)
+    down()
+    left(22)
 
-    penup()  
-    goto(-65, 75) 
-    pendown() 
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(68)
+        forward(40)
+        left(112)
+    end_fill()
 
-    right(65)
-    forward(150)
-    left(135)
-    forward(150)
+    up()
+    goto(46, 90)
+    down()
+    right(44)
+
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(112)
+        forward(40)
+        left(68)
+    end_fill()
+
 
 def draw_logo_5():
+    hideturtle()
+    bgcolor('#68A4A5')
+    pencolor('#D9DAD9')
+    fillcolor('#D9DAD9')
+    right(90)
 
-    bgcolor("#072e46")
-    speed(1)
-    pensize(30)
-    color("#53ca5b")
-    hideturtle() 
+    up()
+    goto(-105, 90)
+    down()
+    left(22)
 
-    penup()  
-    goto(-65, 75) 
-    pendown()     
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(68)
+        forward(40)
+        left(112)
+    end_fill()
 
-    right(65)
-    forward(150)
-    left(135)
-    forward(150)
+    up()
+    goto(46, 90)
+    down()
+    right(44)
+
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(112)
+        forward(40)
+        left(68)
+    end_fill()
+
 
 def draw_logo_6():
+    hideturtle()
+    bgcolor('#6F9BD1')
+    pencolor('#DF3C5F')
+    fillcolor('#DF3C5F')
+    right(90)
 
-    bgcolor("#7c5f55")
-    speed(1)
-    pensize(28)
-    color("#11275a")
-    hideturtle() 
+    up()
+    goto(-105, 90)
+    down()
+    left(22)
 
-    penup()  
-    goto(-65, 75) 
-    pendown()     
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(68)
+        forward(40)
+        left(112)
+    end_fill()
 
-    right(65)
-    forward(150)
-    left(135)
-    forward(150)
+    up()
+    goto(46, 90)
+    down()
+    right(44)
+
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(112)
+        forward(40)
+        left(68)
+    end_fill()
+
 
 def draw_logo_7():
+    hideturtle()
+    bgcolor('#DF3C5F')
+    pencolor('#6F9BD1')
+    fillcolor('#6F9BD1')
+    right(90)
 
-    bgcolor("#94d256")
-    speed(1)
-    pensize(25)
-    color("#4b2029")
-    hideturtle() 
+    up()
+    goto(-105, 90)
+    down()
+    left(22)
 
-    penup()  
-    goto(-65, 75) 
-    pendown()     
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(68)
+        forward(40)
+        left(112)
+    end_fill()
 
-    right(65)
-    forward(150)
-    left(135)
-    forward(150)
+    up()
+    goto(46, 90)
+    down()
+    right(44)
+
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(112)
+        forward(40)
+        left(68)
+    end_fill()
+
 
 def draw_logo_8():
+    hideturtle()
+    bgcolor('#EB6F46')
+    pencolor('#E9E7E0')
+    fillcolor('#E9E7E0')
+    right(90)
 
-    bgcolor("#8d8ea5")
-    speed(1)
-    pensize(30)
-    color("#17441f")
-    hideturtle() 
+    up()
+    goto(-105, 90)
+    down()
+    left(22)
 
-    penup()  
-    goto(-65, 75) 
-    pendown()     
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(68)
+        forward(40)
+        left(112)
+    end_fill()
 
-    right(65)
-    forward(150)
-    left(135)
-    forward(150)
+    up()
+    goto(46, 90)
+    down()
+    right(44)
+
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(112)
+        forward(40)
+        left(68)
+    end_fill()
+
 
 def draw_logo_9():
+    hideturtle()
+    bgcolor('#E3C5B2')
+    pencolor('#A72218')
+    fillcolor('#A72218')
+    right(90)
 
-    bgcolor("#352731")
-    speed(1)
-    pensize(26)
-    color("#9f1e7a")
-    hideturtle() 
+    up()
+    goto(-105, 90)
+    down()
+    left(22)
 
-    penup()  
-    goto(-65, 75) 
-    pendown()     
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(68)
+        forward(40)
+        left(112)
+    end_fill()
 
-    right(65)
-    forward(150)
-    left(135)
-    forward(150)
+    up()
+    goto(46, 90)
+    down()
+    right(44)
+
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(112)
+        forward(40)
+        left(68)
+    end_fill()
+
 
 def draw_logo_10():
+    hideturtle()
+    bgcolor('#A72218')
+    pencolor('#E9E7E0')
+    fillcolor('#E9E7E0')
+    right(90)
 
-    bgcolor("#0f1271")
-    speed(1)
-    pensize(25)
-    color("#053306")
-    hideturtle() 
+    up()
+    goto(-105, 90)
+    down()
+    left(22)
 
-    penup()  
-    goto(-65, 75) 
-    pendown()     
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(68)
+        forward(40)
+        left(112)
+    end_fill()
 
-    right(65)
-    forward(150)
-    left(135)
-    forward(150)
+    up()
+    goto(46, 90)
+    down()
+    right(44)
+
+    begin_fill()
+    for _ in range(2):
+        forward(200)
+        left(112)
+        forward(40)
+        left(68)
+    end_fill()
+
+
